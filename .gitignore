@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# API keys and local secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Local learner records
+assessment_results.json
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Operating system / editor files
+.DS_Store
+Thumbs.db
+.vscode/
